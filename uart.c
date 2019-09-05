@@ -27,9 +27,9 @@ int main ()
   }
 
   while(1){
-	  
+
 		 if(serialDataAvail (serial_port) )
-		  { 
+		  {
 		    dat = serialGetchar (serial_port);		/* receive character serially*/	
 		    printf ("%c", dat) ;
 		    fflush (stdout) ;
